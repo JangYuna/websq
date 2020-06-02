@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_vertical_guides="" meta_horizontal_guides="">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+        	<xf:instance>
+        		<data xmlns="" />
+        	</xf:instance>
+        	<w2:dataCollection baseNode="map">
+        		<w2:dataList baseNode="list" id="join_type" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[E0]]></CODE_CD>
+        					<CODE_NM><![CDATA[신입]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[E1]]></CODE_CD>
+        					<CODE_NM><![CDATA[경력]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="put_yn" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[G0]]></CODE_CD>
+        					<CODE_NM><![CDATA[Y]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[G1]]></CODE_CD>
+        					<CODE_NM><![CDATA[N]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="join_gbn_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[A0]]></CODE_CD>
+        					<CODE_NM><![CDATA[사무직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A1]]></CODE_CD>
+        					<CODE_NM><![CDATA[영업직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A2]]></CODE_CD>
+        					<CODE_NM><![CDATA[기술직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A3]]></CODE_CD>
+        					<CODE_NM><![CDATA[관리직]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="pos_gbn_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[C0]]></CODE_CD>
+        					<CODE_NM><![CDATA[사원]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C1]]></CODE_CD>
+        					<CODE_NM><![CDATA[대리]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C2]]></CODE_CD>
+        					<CODE_NM><![CDATA[과장]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C3]]></CODE_CD>
+        					<CODE_NM><![CDATA[차장]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C4]]></CODE_CD>
+        					<CODE_NM><![CDATA[팀장]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" repeatNode="map" id="insa" saveRemovedData="true">
+        			<w2:columnInfo>
+        				<w2:column id="INSA_SABUN" name="사번" dataType="text"></w2:column>
+        				<w2:column id="INSA_NAME" name="성명" dataType="text"></w2:column>
+        				<w2:column id="INSA_REG_NO" name="주민번호" dataType="text"></w2:column>
+        				<w2:column id="INSA_HP" name="핸드폰번호" dataType="text"></w2:column>
+        				<w2:column id="INSA_POS_GBN_CODE" name="직위" dataType="text"></w2:column>
+        				<w2:column id="INSA_JOIN_DAY" name="입사일자" dataType="text"></w2:column>
+        				<w2:column id="INSA_RETIRE_DAY" name="퇴사일자" dataType="text"></w2:column>
+        				<w2:column id="INSA_PUT_YN" name="투입여부" dataType="text"></w2:column>
+        				<w2:column id="INSA_SALARY" name="연봉" dataType="text"></w2:column>
+        				<w2:column id="count" name="화면 행수" dataType="text"></w2:column>
+        				<w2:column id="page" name="페이지 수" dataType="text"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataMap baseNode="map" id="req_insa">
+        			<w2:keyInfo>
+        				<w2:key id="INSA_SABUN" name="name1" dataType="text"></w2:key>
+        				<w2:key id="INSA_NAME" name="name2" dataType="text"></w2:key>
+        				<w2:key id="INSA_JOIN_TYPE" name="name3" dataType="text"></w2:key>
+        				<w2:key id="INSA_PUT_YN" name="name4" dataType="text"></w2:key>
+        				<w2:key id="INSA_POS_GBN_CODE" name="name5" dataType="text"></w2:key>
+        				<w2:key id="INSA_JOIN_DAY" name="name6" dataType="text"></w2:key>
+        				<w2:key id="INSA_RETIRE_DAY" name="name7" dataType="text"></w2:key>
+        				<w2:key id="INSA_JOIN_GBN_CODE" name="name8" dataType="text"></w2:key>
+        			</w2:keyInfo>
+        		</w2:dataMap>
+        		<w2:dataMap baseNode="map" id="move_sabun">
+        			<w2:keyInfo>
+        				<w2:key id="INSA_SABUN" name="name1" dataType="text"></w2:key>
+        			</w2:keyInfo>
+        		</w2:dataMap>
+        		<w2:dataMap baseNode="map" id="dma_SearchParam" style="">
+        			<w2:keyInfo>
+        				<w2:key dataType="text" id="page" name="페이지 수"></w2:key>
+        			</w2:keyInfo>
+        			<w2:data use="true">
+        				<page><![CDATA[1]]></page>
+        			</w2:data>
+        		</w2:dataMap>
+        		<w2:dataMap id="dma_SearchResult" style="">
+        			<w2:keyInfo>
+        				<w2:key dataType="text" defaultValue="1" id="count" name="count"></w2:key>
+        				<w2:key dataType="text" defaultValue="1" id="page" name="page"></w2:key>
+        				<w2:key dataType="text" id="startNum" name="startNum"></w2:key>
+        				<w2:key dataType="text" id="endNum" name="endNum"></w2:key>
+        				<w2:key dataType="text" defaultValue="0" id="totalCount" name="totalCount"></w2:key>
+        			</w2:keyInfo>
+        			<w2:data xmlns=""></w2:data>
+        		</w2:dataMap>
+        	</w2:dataCollection>
+        	<w2:workflowCollection></w2:workflowCollection>
+        	<xf:submission id="sub_search" ref='data:json,["req_insa","dma_SearchParam"]' target='data:json,["insa","dma_SearchResult"]' action="/ws5/insa/search.do" method="post"
+        		mediatype="application/json" encoding="UTF-8" instance="" replace="" errorHandler="" customHandler="" mode="asynchronous"
+        		processMsg="" ev:submit="" ev:submitdone="scwin.sub_search_submitdone" ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        </xf:model>
+        <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.btn_search_onclick = function(e) {
+		dma_SearchParam.set( "page" , 1 );
+		$p.executeSubmission( "sub_search" );
+	};
+	
+	scwin.selectMemeberList = function(){
+		$p.executeSubmission( "sub_search" );
+	};
+	
+	function phoneVali(e){
+		
+		var number = e.replace(/[^0-9]/g, "");
+    	var phone = "";
+		
+		if(number.length < 4) {
+       		return number;
+    	} else if(number.length < 7) {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3);
+    	} else if(number.length < 11) {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3, 3);
+        	phone += "-";
+        	phone += number.substr(6);
+    	} else {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3, 4);
+        	phone += "-";
+        	phone += number.substr(7);
+    	}
+    		return phone;		
+    }
+    
+    function valiput(e){
+	    var put="";
+		if(e == "G0"){
+			put = "Y";
+			return put;
+		}else if(e == "G1"){
+			put = "N";
+			return put;
+		}else{
+			return e;
+		}			
+    }
+    
+    function valipos(e){
+	    var pos="";
+		if(e == "C0"){
+			pos = "사원";
+			return pos;
+		}else if(e == "C1"){
+			pos = "대리";
+			return pos;
+		}else if(e == "C2"){
+			pos = "과장";
+			return pos;
+		}else if(e == "C3"){
+			pos = "차장";
+			return pos;
+		}else if(e == "C4"){
+			pos = "팀장";
+			return pos;
+		}else{
+			return e;
+		}			
+    }
+	
+	scwin.fn_execAjax = function(actionUrl) {
+		if (actionUrl) {
+			/*
+				ajax통신용 함수
+				Parameters : - Object options JSON형태 객체 
+				options.action : ajax 요청주소
+				options.mode : asynchronous(default)/synchronous 
+				options.mediatype : application/x-www-form-urlencoded , application/json , application/xml , text/xml
+				options.method : get/post/put/delete
+				options.requestData : 요청본문
+				options.timeout : ajax요청후 timeout 시간. 이시간이 초과해도 응답이 오지 않는 경우 error callback함수를 실행
+				options.type : xml/json. xml인 경우 success callback함수의 인자객체의 responseBody속성에 xml객체가 설정되고,
+							   json인 경우 자바스크립트 객체가 설정된다.나머지 경우는 text형식이 설정.
+				options.beforeAjax : 요청전에 실행되는 함수로 이 함수내에서 false를 return하면 ajax요청을 하지 않는다
+				options.success : 요청이 성공한 경우 실행되는 callback함수
+				options.error : 요청이 실패한 경우 실행되는 callback함수
+			 */
+			//var tmpReqDC = reqDC.split(",") || [];
+
+			var sendOpt = {};
+
+			sendOpt.action = actionUrl;
+			sendOpt.mediatype = "application/xml";
+			sendOpt.method = "post";
+			sendOpt.requestHeader = {
+				insUserData : "w5Edu"
+			};
+			//sendOpt.requestData = JSON.stringify($p.data.get("JSON", tmpReqDC));
+
+			sendOpt.beforeAjax = function(e) {
+				$p.log("Before");
+				for ( var tmp in e) {
+					$p.log("==::" + tmp);
+				}
+				e.requestData = '{"userInfo":' + e.requestData + '}';
+				return true;
+			};
+
+			sendOpt.success = function(e) {
+				alert( "ajax success\n" + e.responseText);
+				if (resDC)
+					$p.getComponentById(resDC).setJSON(e.responseJSON[resDC]);
+			};
+
+			sendOpt.error = function(e) {
+				alert("ajax error\n" + "errorType:" + e.errorType + "\n"
+						+ "statusCode:" + e.responseStatusCode);
+			};
+
+			$p.ajax(sendOpt);
+		} else {
+			alert("action이 정의되지 않았습니다.");
+		}
+
+	};
+	
+	scwin.insa_gridView_oncellclick = function(row,col,colId) {
+		var focusIdx = insa_gridView.getFocusedRowIndex();
+		var colIndex = insa_gridView.getFocusedColumnIndex();
+		var colId = insa_gridView.getColumnID(col);
+		
+		var insa_sabun = insa_gridView.getCellDisplayData(focusIdx, colIndex);
+		console.log("colIndex:"+colIndex);
+		
+		if(colIndex == "0"){
+		move_sabun.set("INSA_SABUN", insa_sabun);
+				
+		//scwin.fn_execAjax("/ws5/insa/memberupdateForm.do");
+		//$p.executeSubmission("sub_up");
+		
+		WebSquare.cookie.setCookie("key1", insa_sabun);
+			
+		$p.url("/ws5/insa/sawon_update.xml", {replaceHistory:true});
+		}
+	};
+	
+	scwin.btn_reset_onclick = function(e) {
+		req_insa.setEmptyValue();				
+	};
+	
+	//PageList의 페이지 정보 셋팅
+	scwin.setPageInfo = function() {
+		var dataObj = dma_SearchResult.getJSON();
+		var isInit = false, pageSize=0;
+		if(dataObj.page == 1){
+			isInit = true;
+		}
+		pageSize = com.getPageSize(dataObj.totalCount, dataObj.count);
+		pgl_member.setCount( pageSize , !isInit );
+		console.log("dataObj.totalCount:"+dataObj.totalCount);
+		console.log("dataObj.count:"+dataObj.count);
+		console.log("pageSize:"+pageSize);
+		console.log("isInit:"+isInit);
+		console.log("pageCount:"+pgl_member.getCount());
+	};
+	
+	//PageList의  value가 변경되었을때.
+	scwin.pgl_member_onviewchange = function(info) {
+		dma_SearchParam.set( "page" , info.newSelectedIndex );
+		scwin.selectMemeberList();
+	};
+	
+	scwin.sub_search_submitdone = function(e) {
+		scwin.setPageInfo();
+	};
+	
+	scwin.btn_pre_onclick = function(e) {
+		history.back();
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group id="" style="height:55px;background-color:#DEDEDE;overflow: hidden;">
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_search.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[조회하기]]></xf:label>
+    		</w2:anchor>
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_insert.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[입력하기]]></xf:label>
+    		</w2:anchor>
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_main.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:left;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[피노소프트]]></xf:label>
+    		</w2:anchor>
+    	</xf:group>
+    	<xf:group id="" style="height:46px;">
+    		<w2:span id="" label="직원 리스트" style="font-size:18pt;margin: 10px;"></w2:span>
+    	</xf:group>
+    	<xf:group style="height:70px;margin:10px;" id="">
+    		<xf:group tagname="table" style="width:100%;border: hidden;" id="" class="w2tb">
+    			<w2:attributes>
+    				<w2:summary></w2:summary>
+    			</w2:attributes>
+    			<xf:group tagname="caption"></xf:group>
+    			<xf:group tagname="colgroup">
+    				<xf:group tagname="col" style="width:12.50%;"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%;"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%;"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%;"></xf:group>
+    				<xf:group tagname="col" style="width:12.50%"></xf:group>
+    			</xf:group>
+    			<xf:group tagname="tr" style="border: hidden;">
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">사번</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:input adjustMaxLength="false" id="insa_sabun" style="width: 100%;height: 21px;"
+    						ref="data:req_insa.INSA_SABUN">
+    					</xf:input>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">성명</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:input adjustMaxLength="false" id="insa_name" style="width: 100%;height: 21px;" ref="data:req_insa.INSA_NAME"></xf:input>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">입사구분</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:select1 id="insa_join_type" chooseOption="true" style="width: 100%;height: 21px;" submenuSize="auto"
+    						allOption="" disabled="false" direction="auto" appearance="minimal" disabledClass="w2selectbox_disabled" chooseOptionLabel=""
+    						ref="data:req_insa.INSA_JOIN_TYPE">
+    						<xf:choices>
+    							<xf:itemset nodeset="data:join_type">
+    								<xf:label ref="CODE_NM"></xf:label>
+    								<xf:value ref="CODE_CD"></xf:value>
+    							</xf:itemset>
+    						</xf:choices>
+    					</xf:select1>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">투입여부</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:select1 allOption="" appearance="minimal" chooseOption="true" direction="auto" disabled="false"
+    						disabledClass="w2selectbox_disabled" id="insa_put_yn" style="width: 100%;height: 21px;" submenuSize="auto" chooseOptionLabel=""
+    						ref="data:req_insa.INSA_PUT_YN">
+    						<xf:choices>
+    							<xf:itemset nodeset="data:put_yn">
+    								<xf:label ref="CODE_NM"></xf:label>
+    								<xf:value ref="CODE_CD"></xf:value>
+    							</xf:itemset>
+    						</xf:choices>
+    					</xf:select1>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group tagname="tr" style="border: hidden;">
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">직위</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:select1 allOption="" appearance="minimal" chooseOption="true" direction="auto" disabled="false"
+    						disabledClass="w2selectbox_disabled" id="insa_pos_gbn_code" style="width: 100%;height: 21px;" submenuSize="auto"
+    						chooseOptionLabel="" ref="data:req_insa.INSA_POS_GBN_CODE">
+    						<xf:choices>
+    							<xf:itemset nodeset="data:pos_gbn_code">
+    								<xf:label ref="CODE_NM"></xf:label>
+    								<xf:value ref="CODE_CD"></xf:value>
+    							</xf:itemset>
+    						</xf:choices>
+    					</xf:select1>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">입사일자</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<w2:inputCalendar footerDiv="false" id="insa_join_day" style="width: 100%;height: 23px;" renderDiv="true"
+    						focusOnDateSelect="false" calendarValueType="yearMonthDate" rightAlign="false" renderType="component"
+    						ref="data:req_insa.INSA_JOIN_DAY">
+    					</w2:inputCalendar>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">퇴사일자</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<w2:inputCalendar calendarValueType="yearMonthDate" focusOnDateSelect="false" footerDiv="false" id="insa_retire_day"
+    						renderDiv="true" renderType="component" rightAlign="false" style="width: 100%;height: 23px;"
+    						ref="data:req_insa.INSA_RETIRE_DAY">
+    					</w2:inputCalendar>
+    				</xf:group>
+    				<xf:group tagname="td" style="text-align:center;border: hidden;" class="w2tb_td">직종분류</xf:group>
+    				<xf:group tagname="td" style="border: hidden;" class="w2tb_td">
+    					<xf:select1 allOption="" appearance="minimal" chooseOption="true" direction="auto" disabled="false"
+    						disabledClass="w2selectbox_disabled" id="insa_join_gbn_code" style="width: 100%;height: 21px;" submenuSize="auto"
+    						chooseOptionLabel="" ref="data:req_insa.INSA_JOIN_GBN_CODE">
+    						<xf:choices>
+    							<xf:itemset nodeset="data:join_gbn_code">
+    								<xf:label ref="CODE_NM"></xf:label>
+    								<xf:value ref="CODE_CD"></xf:value>
+    							</xf:itemset>
+    						</xf:choices>
+    					</xf:select1>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group style="height: 200px;height:70px;margin-right: 10px;margin-left: 10px;margin-bottom: 10px;" id="">
+    		<xf:trigger type="button" style="width: 80px;height: 23px;float:right;margin: 10px;" id="btn_pre" ev:onclick="scwin.btn_pre_onclick">
+    			<xf:label><![CDATA[이전]]></xf:label>
+    		</xf:trigger>
+    		<xf:trigger type="button" style="width: 80px;height: 23px;float:right;margin: 10px;" id="btn_reset"
+    			ev:onclick="scwin.btn_reset_onclick">
+    			<xf:label><![CDATA[초기화]]></xf:label>
+    		</xf:trigger>
+    		<xf:trigger type="button" style="width: 80px;height: 23px;float:right;margin: 10px;" id="btn_search"
+    			ev:onclick="scwin.btn_search_onclick">
+    			<xf:label><![CDATA[검색]]></xf:label>
+    		</xf:trigger>
+    	</xf:group>
+    	<w2:gridView id="insa_gridView" style="height: 150px;" scrollByColumn="false" defaultCellHeight="20" scrollByColumnAdaptive="false"
+    		dataList="data:insa" dataDragSelect="true" columnMove="true" autoFit="allColumn" autoFitMinWidth="800" focusFlow="linear"
+    		focusMode="row" ignoreCellClick="true" ev:oncellclick="scwin.insa_gridView_oncellclick">
+    		<w2:caption style="" id="caption2" value="this is a grid caption."></w2:caption>
+    		<w2:header style="" id="header2">
+    			<w2:row style="" id="row3">
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column35" value="사번"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column33" value="성명"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column31" value="주민번호"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column29" value="핸드폰번호"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column27" value="직위"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column25" value="입사일자"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column23" value="퇴사일자"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column21" value="투입여부"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="column19" value="연봉"
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    			</w2:row>
+    		</w2:header>
+    		<w2:gBody style="" id="gBody2">
+    			<w2:row style="" id="row4">
+    				<w2:column removeBorderStyle="false" width="70" inputType="link" style="height:20px" id="INSA_SABUN" value=""
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_NAME" value=""
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_REG_NO" value=""
+    					blockSelect="false" displayMode="label">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_HP" value=""
+    					blockSelect="false" displayMode="label" displayFormatter="phoneVali">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_POS_GBN_CODE" value=""
+    					blockSelect="false" displayMode="label" displayFormatter="valipos">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_JOIN_DAY" value=""
+    					blockSelect="false" displayMode="label" displayFormat="####/##/##">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_RETIRE_DAY" value=""
+    					blockSelect="false" displayMode="label" displayFormat="####/##/##">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px" id="INSA_PUT_YN" value=""
+    					blockSelect="false" displayMode="label" displayFormatter="valiput">
+    				</w2:column>
+    				<w2:column removeBorderStyle="false" width="70" inputType="text" style="height:20px;text-align:right;" id="INSA_SALARY"
+    					value="" blockSelect="false" displayMode="label" displayFormat="#,###">
+    				</w2:column>
+    			</w2:row>
+    		</w2:gBody>
+    	</w2:gridView>
+    	<w2:pageList pageSize="10" displayButtonType="display" id="pgl_member" displayFormat="#" style="" ev:onviewchange="scwin.pgl_member_onviewchange"></w2:pageList>
+    </body>
+</html>

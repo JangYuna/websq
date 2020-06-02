@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.btn_input_onclick = function(e) {
+		$p.url("/ws5/insa/sawon_insert.xml");
+	};
+	
+	scwin.btn_search_onclick = function(e) {
+		$p.url("/ws5/insa/sawon_search.xml");
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group style="width: 100%;height: 100%;background-color:#70788F;" id="">
+    		<xf:group id=""
+    			style="width: 40%;height:55px;overflow: hidden;background-color:#70788F;margin-left: 30%;">
+    			<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_search.xml" id="" outerDiv="false"
+    				style="width: 70px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin: 10px;">
+    				<xf:label><![CDATA[Search]]></xf:label>
+    			</w2:anchor>
+    			<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_insert.xml" id="" outerDiv="false"
+    				style="width: 70px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin: 10px;">
+    				<xf:label><![CDATA[Input]]></xf:label>
+    			</w2:anchor>
+    			<w2:anchor outerDiv="false" style="width: 70px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin: 10px;" id=""
+    				href="/ws5/#w2xPath=/ws5/insa/sawon_main.xml">
+    				<xf:label><![CDATA[Home]]></xf:label>
+    			</w2:anchor>
+    			<w2:anchor outerDiv="false" style="width: 100px;height: 23px;float:left;font-size:14pt;color:#FFFFFF;margin: 10px;" id="">
+    				<xf:label><![CDATA[피노소프트]]></xf:label>
+    			</w2:anchor>
+    		</xf:group>
+    		<xf:group style="margin-top:60px;		width:50%;		text-align:center;		margin-top:15%;		margin-bottom: 20%;margin-left: 38%;" id="">
+    			<xf:group style="width: 50%;height: 40px;" id="">
+    				<w2:span label="인사관리 시스템" style="font-size:18pt;color:#FFFFFF;margin-left: 10px;" id=""></w2:span>
+    			</xf:group>
+    			<xf:group style="width: 50%;height: 40px;" id="">
+    				<w2:span label="인사정보를 입력하겠습니다." style="color:#FFFFFF;font-size:12pt;margin-right: 10px;" id=""></w2:span>
+    				<xf:trigger type="button" style="width: 50px;height: 23px;" id="btn_input" ev:onclick="scwin.btn_input_onclick">
+    					<xf:label><![CDATA[입력]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    			<xf:group style="width: 50%;height: 40px;" id="">
+    				<w2:span label="인사정보를 조회하겠습니다." style="color:#FFFFFF;font-size:12pt;margin-right: 10px;" id=""></w2:span>
+    				<xf:trigger type="button" style="width: 50px;height: 23px;" id="btn_search" ev:onclick="scwin.btn_search_onclick">
+    					<xf:label><![CDATA[조회]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    		</xf:group>
+    	<footer style="width: 40%;height: 200px;margin-left: 30%;" id="">
+    		<w2:span label="서울시 금천구 서부샛길 606 A-1306(가산동 대성디폴리스 지식산업센터)/Tel 02-6049-1114 / Fax 02-861-9883 Copyright&amp;copy;2015 IT&amp;BIZ co.LTD.All rights reserved by itnbiz@naver.com" style="color:#FFFFFF;text-align:center;" id=""></w2:span>
+    	</footer></xf:group>
+    	
+    </body>
+</html>

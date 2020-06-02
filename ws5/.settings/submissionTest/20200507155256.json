@@ -1,0 +1,9 @@
+{
+   "charset": "UTF-8",
+   "reqMethod": "POST",
+   "serviceURL": "http://127.0.0.1:8080/ws5/training/getUserInfo.do",
+   "contentType": "application/json",
+   "requestContent": "{\"dc_reqUserInfo\": {\"EMP_CD\": \"1000000\"}}",
+   "responseContent": "{\"msg\":\"조회가 완료되었습니다.\",\"dc_userInfo\":null,\"msgCode\":\"S\"}",
+   "sendTime": "2020-05-07 15:52:56"
+}

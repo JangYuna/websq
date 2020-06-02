@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/ws5/css/color.css" type="text/css"?>
+<?xml-stylesheet href="/ws5/css/color.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_vertical_guides="100" meta_horizontal_guides="">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            	<w2:dataMap baseNode="map" id="dataMap1"></w2:dataMap>
+            	<w2:dataList baseNode="list" repeatNode="map" id="dataList1" saveRemovedData="true"></w2:dataList>
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		ipt1.setValue("987654321");
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.ipt1_onviewchange = function(info) {
+		debugger;
+		alert(info.newValue);
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:input adjustMaxLength="false" id="ipt1" style="width:217px;height:52px;background-color: red;" placeholder="입력하세요."
+    		initValue="123456789" ev:onviewchange="scwin.ipt1_onviewchange">
+    	</xf:input>
+    	<xf:trigger type="button" style="width: 80px;height: 23px;" id="">
+    		<xf:label><![CDATA[]]></xf:label>
+    	</xf:trigger>
+    	<w2:inputCalendar footerDiv="false" id="" style="width:272px;height:41px;" renderDiv="true" focusOnDateSelect="false"
+    		calendarValueType="yearMonthDate" rightAlign="false" renderType="component">
+    	</w2:inputCalendar>
+    	<w2:multiupload mode="html5_transparent" wmode="false" style="width: 500px;height: 150px;" id="" uploadButton=""></w2:multiupload>
+    </body>
+</html>

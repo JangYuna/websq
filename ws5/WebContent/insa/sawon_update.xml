@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+        	<xf:instance>
+        		<data xmlns="" />
+        	</xf:instance>
+        	<w2:dataCollection baseNode="map">
+        		<w2:dataList baseNode="list" id="email" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[@naver.com]]></CODE_CD>
+        					<CODE_NM><![CDATA[@naver.com]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[@gmail.com]]></CODE_CD>
+        					<CODE_NM><![CDATA[@gmail.com]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[@daum.net]]></CODE_CD>
+        					<CODE_NM><![CDATA[@daum.net]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[직접입력]]></CODE_CD>
+        					<CODE_NM><![CDATA[직접입력]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="join_gbn_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[A0]]></CODE_CD>
+        					<CODE_NM><![CDATA[사무직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A1]]></CODE_CD>
+        					<CODE_NM><![CDATA[영업직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A2]]></CODE_CD>
+        					<CODE_NM><![CDATA[기술직]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[A3]]></CODE_CD>
+        					<CODE_NM><![CDATA[관리직]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="gender" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[B0]]></CODE_CD>
+        					<CODE_NM><![CDATA[여성]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[B1]]></CODE_CD>
+        					<CODE_NM><![CDATA[남성]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="pos_gbn_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[C0]]></CODE_CD>
+        					<CODE_NM><![CDATA[사원]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C1]]></CODE_CD>
+        					<CODE_NM><![CDATA[대리]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C2]]></CODE_CD>
+        					<CODE_NM><![CDATA[과장]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C3]]></CODE_CD>
+        					<CODE_NM><![CDATA[차장]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[C4]]></CODE_CD>
+        					<CODE_NM><![CDATA[팀장]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="dept_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[D0]]></CODE_CD>
+        					<CODE_NM><![CDATA[인사팀]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[D1]]></CODE_CD>
+        					<CODE_NM><![CDATA[경영팀]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[D2]]></CODE_CD>
+        					<CODE_NM><![CDATA[기술개발팀]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[D3]]></CODE_CD>
+        					<CODE_NM><![CDATA[영업팀]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="join_type" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[E0]]></CODE_CD>
+        					<CODE_NM><![CDATA[신입]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[E1]]></CODE_CD>
+        					<CODE_NM><![CDATA[경력]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="gart_level" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[F0]]></CODE_CD>
+        					<CODE_NM><![CDATA[고등학교졸업]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[F1]]></CODE_CD>
+        					<CODE_NM><![CDATA[대학교졸업]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[F2]]></CODE_CD>
+        					<CODE_NM><![CDATA[대학원졸업]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="put_yn" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[G0]]></CODE_CD>
+        					<CODE_NM><![CDATA[Y]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[G1]]></CODE_CD>
+        					<CODE_NM><![CDATA[N]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="mil_yn" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[H0]]></CODE_CD>
+        					<CODE_NM><![CDATA[군필]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[H1]]></CODE_CD>
+        					<CODE_NM><![CDATA[미필]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[H2]]></CODE_CD>
+        					<CODE_NM><![CDATA[면제]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="mil_type" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[I0]]></CODE_CD>
+        					<CODE_NM><![CDATA[육군]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[I1]]></CODE_CD>
+        					<CODE_NM><![CDATA[해군]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[I2]]></CODE_CD>
+        					<CODE_NM><![CDATA[공군]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="mil_level" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[J0]]></CODE_CD>
+        					<CODE_NM><![CDATA[이등병]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[J1]]></CODE_CD>
+        					<CODE_NM><![CDATA[일병]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[J2]]></CODE_CD>
+        					<CODE_NM><![CDATA[상병]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[J3]]></CODE_CD>
+        					<CODE_NM><![CDATA[병장]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="kosa_reg_yn" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[K0]]></CODE_CD>
+        					<CODE_NM><![CDATA[Y]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[K1]]></CODE_CD>
+        					<CODE_NM><![CDATA[N]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataList baseNode="list" id="kosa_class_code" repeatNode="map" saveRemovedData="true" style="">
+        			<w2:columnInfo>
+        				<w2:column dataType="text" id="CODE_CD" name="코드"></w2:column>
+        				<w2:column dataType="text" id="CODE_NM" name="코드명"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data use="true">
+        				<w2:row>
+        					<CODE_CD><![CDATA[L0]]></CODE_CD>
+        					<CODE_NM><![CDATA[초급]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[L1]]></CODE_CD>
+        					<CODE_NM><![CDATA[중급]]></CODE_NM>
+        				</w2:row>
+        				<w2:row>
+        					<CODE_CD><![CDATA[L2]]></CODE_CD>
+        					<CODE_NM><![CDATA[고급]]></CODE_NM>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        		<w2:dataMap baseNode="map" id="dc_reqSabun">
+        			<w2:keyInfo>
+        				<w2:key id="INSA_SABUN" name="사번" dataType="number"></w2:key>
+        			</w2:keyInfo>
+        		</w2:dataMap>
+        		<w2:dataMap baseNode="map" id="dc_insa" style="">
+        			<w2:keyInfo>
+        				<w2:key dataType="number" id="INSA_SABUN" name="name1"></w2:key>
+        				<w2:key dataType="text" id="INSA_JOIN_DAY" name="name2"></w2:key>
+        				<w2:key dataType="text" id="INSA_RETIRE_DAY" name="name3"></w2:key>
+        				<w2:key dataType="text" id="INSA_PUT_YN" name="name4"></w2:key>
+        				<w2:key dataType="text" id="INSA_NAME" name="name5"></w2:key>
+        				<w2:key dataType="text" id="INSA_REG_NO" name="name6"></w2:key>
+        				<w2:key dataType="text" id="INSA_ENG_NAME" name="name7"></w2:key>
+        				<w2:key dataType="text" id="INSA_PHONE" name="name8"></w2:key>
+        				<w2:key dataType="text" id="INSA_HP" name="name9"></w2:key>
+        				<w2:key dataType="text" id="INSA_CARRIER" name="name10"></w2:key>
+        				<w2:key dataType="text" id="INSA_POS_GBN_CODE" name="name11"></w2:key>
+        				<w2:key dataType="text" id="INSA_CMP_REG_NO" name="name12"></w2:key>
+        				<w2:key dataType="text" id="INSA_CMP_REG_IMAGE" name="name13"></w2:key>
+        				<w2:key dataType="text" id="INSA_GENDER" name="name14"></w2:key>
+        				<w2:key dataType="text" id="INSA_YEARS" name="name15"></w2:key>
+        				<w2:key dataType="text" id="INSA_EMAIL1" name="name16"></w2:key>
+        				<w2:key id="INSA_EMAIL2" name="name37" dataType="text"></w2:key>
+        				<w2:key dataType="text" id="INSA_ZIP" name="name17"></w2:key>
+        				<w2:key dataType="text" id="INSA_ADDR1" name="name18"></w2:key>
+        				<w2:key dataType="text" id="INSA_ADDR2" name="name19"></w2:key>
+        				<w2:key dataType="text" id="INSA_DEPT_CODE" name="name20"></w2:key>
+        				<w2:key dataType="text" id="INSA_JOIN_GBN_CODE" name="name21"></w2:key>
+        				<w2:key dataType="text" id="INSA_ID" name="name22"></w2:key>
+        				<w2:key dataType="text" id="INSA_PWD" name="name23"></w2:key>
+        				<w2:key id="INSA_PWD2" name="name38" dataType="text"></w2:key>
+        				<w2:key dataType="text" id="INSA_SALARY" name="name24"></w2:key>
+        				<w2:key dataType="text" id="INSA_KOSA_REG_YN" name="name25"></w2:key>
+        				<w2:key dataType="text" id="INSA_KOSA_CLASS_CODE" name="name26"></w2:key>
+        				<w2:key dataType="text" id="INSA_MIL_YN" name="name27"></w2:key>
+        				<w2:key dataType="text" id="INSA_MIL_TYPE" name="name28"></w2:key>
+        				<w2:key dataType="text" id="INSA_MIL_LEVEL" name="name29"></w2:key>
+        				<w2:key dataType="text" id="INSA_MIL_STARTDATE" name="name30"></w2:key>
+        				<w2:key dataType="text" id="INSA_MIL_ENDDATE" name="name31"></w2:key>
+        				<w2:key dataType="text" id="INSA_JOIN_TYPE" name="name32"></w2:key>
+        				<w2:key dataType="text" id="INSA_GART_LEVEL" name="name33"></w2:key>
+        				<w2:key dataType="text" id="INSA_SELF_INTRO" name="name34"></w2:key>
+        				<w2:key dataType="text" id="INSA_CRM_NAME" name="name35"></w2:key>
+        				<w2:key dataType="text" id="INSA_PROFILE" name="name36"></w2:key>
+        			</w2:keyInfo>
+        		</w2:dataMap>
+        	</w2:dataCollection>
+        	<w2:workflowCollection></w2:workflowCollection>
+        	<xf:submission id="sub_getSabun" ref="data:json,dc_reqSabun" target="data:json,dc_insa" action="/ws5/insa/updateForm.do"
+        		method="post" mediatype="application/json" encoding="UTF-8" instance="" replace="" errorHandler="" customHandler=""
+        		mode="asynchronous" processMsg="" ev:submit="" ev:submitdone="" ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        	<xf:submission id="sub_update" ref="data:json,dc_insa" target="" action="/ws5/insa/memberupdate.do" method="post"
+        		mediatype="application/json" encoding="UTF-8" instance="" replace="" errorHandler="" customHandler="" mode="asynchronous"
+        		processMsg="" ev:submit="scwin.sub_update_submit" ev:submitdone="scwin.sub_update_submitdone" ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        	<xf:submission id="sub_delete" ref="data:json,dc_reqSabun" target="" action="/ws5/insa/memberdelete.do" method="post"
+        		mediatype="application/json" encoding="UTF-8" instance="" replace="" errorHandler="" customHandler="" mode="asynchronous"
+        		processMsg="" ev:submit="scwin.sub_delete_submit" ev:submitdone="scwin.sub_delete_submitdone" ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        </xf:model>
+        <!-- <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script> -->
+		<script type="text/javascript" src="/ws5/js/postcode.v2.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+         <script type="text/javascript" lazy="false"><![CDATA[
+    imports("uiplugin.popup");
+        
+	scwin.onpageload = function() {
+		
+		insa_cmp_reg_image_im.hide();
+		insa_carrier_im.hide();
+		img_profile2.hide();
+		
+		var key1 = WebSquare.cookie.getCookie("key1");
+		
+		console.log("####", key1);
+		
+		dc_reqSabun.set("INSA_SABUN", key1);
+		
+		$p.executeSubmission("sub_getSabun");
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	scwin.btn_zip_onclick = function(e) {
+		daum.postcode.load(function(){
+            new daum.Postcode({
+                oncomplete: function(data) {
+	                dc_insa.set("INSA_ZIP", data.zonecode);
+	                dc_insa.set("INSA_ADDR1", data.roadAddress);
+	                dc_insa.set("INSA_ADDR2", "");
+                }
+            }).open();
+        });
+	};
+	
+	scwin.btn_profile_onclick = function(e) {
+		var dataObj = {
+					"type" : "json",
+					"data" : {"popId": "ImagePop"},
+					"name" : "param"
+				};
+		
+		var options = {
+					id : "ImagePop",
+					type : "wframePopup",
+					popupName : "이미지 검색", 
+					width : "450px",
+					height : "360px",
+					top : "130px",
+					left : "250px",
+					modal : true,
+					dataObject : dataObj
+				};
+		$p.openPopup("popup_imagePreview.xml", options);
+	};
+	
+	scwin.closeCallback_ImagePop  = function(dataStr){
+		img_profile.setSrc( dataStr.getSrc() );
+		dc_insa.set("INSA_PROFILE", dataStr.getTitle().substring(12));
+		
+	};
+	
+	scwin.btn_save_onclick = function(e) {
+		$p.executeSubmission("sub_update");
+	};
+	
+	function phoneVali(e){
+		
+		var number = e.replace(/[^0-9]/g, "");
+    	var phone = "";
+		
+		if(number.length < 4) {
+       		return number;
+    	} else if(number.length < 7) {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3);
+    	} else if(number.length < 11) {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3, 3);
+        	phone += "-";
+        	phone += number.substr(6);
+    	} else {
+        	phone += number.substr(0, 3);
+        	phone += "-";
+        	phone += number.substr(3, 4);
+        	phone += "-";
+        	phone += number.substr(7);
+    	}
+    		return phone;		
+    }
+    
+    function regVali(e){
+	    
+	    var ContentsData = e;
+		var len;
+	
+		console.log("aaaaaaaaaaaa:"+ContentsData);
+	
+		var ninArray = ContentsData.match(/(?:[0-9]{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[1,2][0-9]|3[0,1]))-[1-4]{1}[0-9]{6}\b/gi);
+    	
+    	console.log("ninArray:"+ninArray);    	
+    	
+    	if(ninArray== null || ninArray =="")
+    	{
+        	ContentsData = ContentsData;
+    	}
+    	else
+    	{
+        	len = ninArray.toString().split('-').length;
+        	ContentsData = ContentsData.toString().replace(ninArray,ninArray.toString().replace(/-?([1-4]{1})([0-9]{5})$/gi,"******"));
+    	}
+
+    	ninArray = ContentsData.match(/\d{13}/gi);
+    	if(ninArray== null || ninArray =="")
+    	{
+        	ContentsData = ContentsData;
+    	}
+    	else
+    	{
+        	ContentsData = ContentsData.toString().replace(ninArray,ninArray.toString().replace(/([0-9]{6})$/gi,"******"));
+   	 	}
+    
+    	console.log("ContentsData:"+ContentsData);
+    	
+    	return ContentsData;
+	    
+	}
+	
+	function cmpVali(e){
+		companyNum = e.replace(/[^0-9]/g, '');
+    	var tempNum = '';   
+
+    	if(companyNum.length < 4){
+      		return companyNum;
+    	}
+    	else if(companyNum.length < 6){
+      		tempNum += companyNum.substr(0,3);
+      		tempNum += '-';
+      		tempNum += companyNum.substr(3,2);
+      		return tempNum;
+    	}
+    	else if(companyNum.length < 11){
+      		tempNum += companyNum.substr(0,3);
+      		tempNum += '-';
+      		tempNum += companyNum.substr(3,2);
+      		tempNum += '-';
+      		tempNum += companyNum.substr(5);
+      		return tempNum;
+    	}
+    	else{        
+      		tempNum += companyNum.substr(0,3);
+      		tempNum += '-';
+      		tempNum += companyNum.substr(3,2);
+      		tempNum += '-';
+      		tempNum += companyNum.substr(5);
+      		return tempNum;
+    	}
+	}
+	
+	function multiUploadSelectDone(){
+		var insa_cmp_name = cmp_up.getFileNames();
+		
+		insa_cmp_reg_image.setValue(insa_cmp_name[0]);
+		
+		console.log("insa_cmp_name[0]:"+insa_cmp_name[0]);
+		
+		var ev = window.event;
+		var files = ev.target.files;
+		fileRead(files);
+		
+	};
+	
+	function fileRead(tmpFile){
+		if (tmpFile && tmpFile[0]) {
+			var reader = new FileReader();
+			reader.onload = function(e) {
+				try{
+					insa_cmp_reg_image_im.setSrc(e.target.result);
+				}catch(ex){ 
+				}finally{
+					reader.onload = null;
+					reader = null;
+				}
+			};
+			reader.readAsDataURL(tmpFile[0]);
+		}
+	}
+	
+	function multiUploadSelectDone2(){
+		var insa_carrier_name = car_up.getFileNames();
+		
+		insa_carrier.setValue(insa_carrier_name[0]);
+		
+		console.log("insa_carrier_name[0]:"+insa_carrier_name[0]);
+		
+		var ev = window.event;
+		var files = ev.target.files;
+		fileRead2(files);
+	};
+	
+	function fileRead2(tmpFile){
+		if (tmpFile && tmpFile[0]) {
+			var reader = new FileReader();
+			reader.onload = function(e) {
+				try{
+					insa_carrier_im.setSrc(e.target.result);
+				}catch(ex){ 
+				}finally{
+					reader.onload = null;
+					reader = null;
+				}
+			};
+			reader.readAsDataURL(tmpFile[0]);
+		}
+	}
+	
+	function emailVali(e){
+		if(e == "@naver.com"){
+			insa_email2.setValue("@naver.com");
+		}else if(e == "@gmail.com"){
+			insa_email2.setValue("@gmail.com");
+		}else if(e == "@daum.net"){
+			insa_email2.setValue("@daum.net");
+		}else{
+			insa_email2.setValue("직접입력");
+		}
+		return e;
+	}
+	
+	function regcmp(e){
+		if(!(e == "")){
+			var uploadRootPath = "/ws5/upload/"+e;
+		
+			insa_cmp_reg_image_im.setSrc(uploadRootPath);
+			
+			return e;
+		}else{
+			return e;
+		}		
+	}
+	
+	function regcmp2(e){
+		if(!(e == "")){
+			var uploadRootPath = "/ws5/upload/"+e;
+		
+			insa_carrier_im.setSrc(uploadRootPath);
+			
+			return e;
+		}else{
+			return e;
+		}		
+	}
+	
+	function regpro(e){
+		if(!(e == "")){
+			var uploadRootPath = "/ws5/upload/"+e;
+		
+			img_profile.setSrc(uploadRootPath);
+			
+			return e;
+		}else{
+			return e;
+		}		
+	}
+	
+	function regpro(e){
+		if(!(e == "")){
+			var uploadRootPath = "/ws5/upload/"+e;
+		
+			img_profile.setSrc(uploadRootPath);
+			
+			return e;
+		}else{
+			return e;
+		}		
+	}
+	
+	scwin.insa_mil_yn_onchange = function() {
+		
+		if(insa_mil_yn.getValue() == "H1" || insa_mil_yn.getValue() == "H2"){
+			insa_mil_type.setReadOnly(true);
+			insa_mil_level.setReadOnly(true);
+			insa_mil_startdate.setReadOnly(true);
+			insa_enddate.setReadOnly(true);
+			
+			insa_mil_type.setValue("");
+			insa_mil_level.setValue("");
+			insa_mil_startdate.setValue("");
+			insa_enddate.setValue("");
+			
+			insa_mil_type.setStyle("background-color", "#D9D9D9");
+			insa_mil_level.setStyle("background-color", "#D9D9D9");
+			insa_mil_startdate.setStyle("background-color", "#D9D9D9");
+			insa_enddate.setStyle("background-color", "#D9D9D9");
+		}else{
+			insa_mil_type.setReadOnly(false);
+			insa_mil_level.setReadOnly(false);
+			insa_mil_startdate.setReadOnly(false);
+			insa_enddate.setReadOnly(false);
+			
+			insa_mil_type.setStyle("background-color", "white");
+			insa_mil_level.setStyle("background-color", "white");
+			insa_mil_startdate.setStyle("background-color", "white");
+			insa_enddate.setStyle("background-color", "white");	
+		}
+		
+	};
+		
+	scwin.insa_email2_onchange = function() {
+		if(insa_email2.getValue() == "직접입력"){
+			insa_email3.setValue("@");
+			insa_email3.focus();
+		}else{
+			var email = insa_email2.getValue();
+			insa_email3.setValue(email);
+		}
+	};
+	
+	scwin.insa_reg_no_onchange = function() {
+		var jumin = insa_reg_no.getValue();
+		var jumingubun = jumin.indexOf("-");
+		var birthStr = jumin.substring(0, jumingubun);
+		var juminpattern = /^(?:[0-9]{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[1,2][0-9]|3[0,1]))-[1-4][0-9]{6}$/;
+	
+		console.log("jumingubun:"+jumingubun);
+		console.log("birthStr:"+birthStr);
+	
+		var century = jumin.substring(jumingubun+1, jumingubun+2);
+	  	if(century == 9 || century == 0) {
+	   		birthStr = "18" + birthStr;
+	  	} else if(century == 1 || century == 2 || century == 5 || century == 6) {
+	   		birthStr = "19" + birthStr;
+	  	} else if(century == 3 || century == 4 || century == 7 || century == 8) {
+	   		birthStr = "20" + birthStr;
+	  	}
+	  
+	  	console.log("century:"+century);
+	  	console.log("birthStr"+birthStr);
+	  
+	  	const date = new Date();
+	  
+	  	console.log("date:"+date)
+	 
+	  	var sdf = moment(date).format('YYYY MM DD');
+	  
+	  	console.log("sdf:"+sdf);
+	  
+	  	var birthDay = moment(birthStr).format('YYYY MM DD');
+	  
+	  	console.log("birthDay:"+birthDay);
+	  
+	  	var today = new Date();
+	  
+	  	console.log("today:"+today);
+	  	console.log("birthDay:"+birthDay);
+	  
+	  	var factor = 0;
+	  	if((moment(today).format('YYYY'))<(moment(birthDay).format('YYYY'))){
+		  	factor = -1;
+	  	}
+	  
+	  	var age = moment(today).format('YYYY') - moment(birthDay).format('YYYY') + factor;
+	  
+	  	console.log("insa_years:"+age);
+	  
+	  	if(birthDay == "" && juminpattern.test(birthDay)==false){
+			insa_years.setValue("");
+	  	}else {
+		  	insa_years.setValue(age);
+	  	}
+	  
+	  	if(century == 1 || century == 3){
+		  	insa_gender.setValue("B1");
+	  	}else if(century == 2 || century == 4){
+		  	insa_gender.setValue("B0");
+	  	}	
+	};
+	
+	scwin.insa_kosa_reg_yn_onchange = function() {
+		
+		if(insa_kosa_reg_yn.getValue() == "K1"){
+			insa_kosa_class_code.setReadOnly(true);
+			
+			insa_kosa_class_code.setValue("");
+			insa_kosa_class_code.setStyle("background-color", "#D9D9D9");
+		}else{
+			insa_kosa_class_code.setReadOnly(false);
+			insa_kosa_class_code.setStyle("background-color", "white");
+		}
+	};
+	
+	scwin.cmp_pre_onclick = function() {
+		
+		if(insa_cmp_reg_image.getValue() == null || insa_cmp_reg_image.getValue() == ""){
+				alert("먼저 파일을 등록해주세요");
+		}else{
+		
+		console.log(insa_cmp_reg_image_im.getSrc());
+		
+		var src = insa_cmp_reg_image_im.getSrc();
+		
+		var dataObj = {
+					"type" : "json",
+					"data" : {"src": src},
+					"name" : "param"
+				};
+		
+		var options = {
+					id : "ImagePop",
+					type : "wframePopup",
+					popupName : "미리보기", 
+					width : "450px",
+					height : "530px",
+					top : "130px",
+					left : "250px",
+					modal : true,
+					dataObject : dataObj
+				};
+		$p.openPopup("popup_cmpPreview.xml", options);
+		}
+	};
+	
+	scwin.carrier_pre_onclick = function(e) {
+		
+		if(insa_carrier.getValue() == null || insa_carrier.getValue() == ""){
+				alert("먼저 파일을 등록해주세요");
+		}else{
+		
+		console.log(insa_carrier_im.getSrc());
+		
+		var src = insa_carrier_im.getSrc();
+		
+		var dataObj = {
+					"type" : "json",
+					"data" : {"src": src},
+					"name" : "param"
+				};
+		
+		var options = {
+					id : "ImagePop",
+					type : "wframePopup",
+					popupName : "미리보기", 
+					width : "450px",
+					height : "530px",
+					top : "130px",
+					left : "250px",
+					modal : true,
+					dataObject : dataObj
+				};
+		$p.openPopup("popup_carrierPreview.xml", options);
+		}
+	};
+	
+	scwin.btn_delete_onclick = function(e) {
+		$p.executeSubmission("sub_delete");
+	};
+	
+	scwin.sub_update_submitdone = function(e) {
+		alert("수정되었습니다");
+		$p.url("/ws5/insa/sawon_search.xml");
+	};
+	
+	scwin.sub_delete_submitdone = function(e) {
+		alert("삭제되었습니다");
+		$p.url("/ws5/insa/sawon_search.xml");
+	};
+	
+	scwin.btn_search_onclick = function(e) {
+		$p.url("/ws5/insa/sawon_search.xml");
+	};
+	
+	scwin.sub_delete_submit = function(e) {
+		if(!confirm('선택한 사원을 삭제하시겠습니까?')){
+			return false;
+		}else{
+			return;	
+		}
+	};
+	
+	scwin.sub_update_submit = function(e) {
+		//1.아이디 정규식 : 4 ~ 20 자리 영(대, 소), 숫자 / 첫글자는 숫자 사용 불가
+		var idpattern = /^[A-Za-z]{1}[A-Za-z0-9]{3,19}$/;
+		//2. 비밀번호 정규식 : 최소 8 자, 최소 하나의 문자 및 하나의 숫자
+		var pwpattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+		//3. 이메일 정규식 : 4 ~ 12 영(대, 소), 숫자
+		var emailpattern = /^[A-Za-z0-9+]{4,12}$/;
+		//3-2. 이메일 주소 정규식
+		var emailpattern2 = /@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+		//4. 숫자 정규식
+		var numpattern =  /^[0-9]*$/;
+		//5. 한글 정규식
+		var hanpattern = /^[가-힣]+$/;
+		//6. 전화번호 형태 : 전화번호 형태 000-0000-0000 만 받는다. ]
+		var phonepattern = /^[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}$/;
+		//7. 주민번호, -까지 포함된 문자열로 검색
+		var juminpattern = /^(?:[0-9]{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[1,2][0-9]|3[0,1]))-[1-4][0-9]{6}$/;
+		//8. 영문 정규식
+		var engpattern = /^[a-zA-Z]*$/;
+		//9. 숫자, 하이픈 정규식
+		var numhapattern = /^[0-9-]{2,20}$/;
+		
+		if(insa_id.getValue()==""){
+			alert("아이디를 입력해주세요");
+			insa_id.focus();
+			return false;
+		}else if(pwpattern.test(insa_pwd.getValue())==false){
+			alert("비밀번호는 최소 8 자, 최소 하나의 문자 및 하나의 숫자를 입력해주세요");
+			insa_pwd.focus();
+			return false;
+		}else if(insa_pwd.getValue()!=insa_pwd2.getValue()){
+			alert("비밀번호가 일치하지 않습니다. 다시 작성해주세요");
+			insa_pwd2.focus();
+			return false;
+		}else if(insa_email1.getValue()==""){
+			alert("이메일을 입력해주세요.");
+			insa_email1.focus();
+			return false;
+		}else if(emailpattern.test(insa_email1.getValue())==false){
+			alert("이메일 형식에 맞지 않는 이메일입니다. 영문과 숫자만 입력 가능합니다");
+			insa_email1.focus();
+			return false;
+		}else if(emailpattern2.test(insa_email3.getValue())==false){
+			alert("이메일 주소를 정확히 입력해주세요");
+			insa_email3.focus();
+			return false;
+		}else if(insa_name.getValue()==""){
+			alert("이름을 입력해주세요");
+			insa_name.focus();
+			return false;
+		}else if(insa_hp.getValue()==""){
+			alert("핸드폰번호를 입력해주세요");
+			insa_hp.focus();
+			return false;
+		}else if(insa_join_day.getValue()==""){
+			alert("입사일자를 선택해주세요");
+			insa_join_day.focus();
+			return false;
+		}			
+
+		if(!(insa_cmp_reg_image.getValue()=="")){
+			console.log(insa_cmp_reg_image.getValue());
+			
+			var cnt = cmp_up.getFileCount();
+			
+			for(i=0;i<cnt;i++){
+   			console.log("cnt:"+i);
+   			cmp_up.setParam( i , "param"+i , "param"+i+"_value" );
+  			}
+			
+			cmp_up.startUpload();
+		}
+		
+		if(!(insa_carrier.getValue()=="")){
+			console.log(insa_carrier.getValue());
+			
+			var cnt = car_up.getFileCount();
+			
+			for(i=0;i<cnt;i++){
+   			console.log("cnt:"+i);
+   			car_up.setParam( i , "param"+i , "param"+i+"_value" );
+  			}
+			
+			car_up.startUpload();
+		}
+		
+//		if(!(img_profile.getSrc()=="")){
+//			console.log(img_profile.getSrc());
+//			insa.set("INSA_PROFILE", img_profile.getSrc());
+//		}
+		
+		return;
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group id="" style="height:55px;background-color:#DEDEDE;overflow: hidden;">
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_search.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[조회하기]]></xf:label>
+    		</w2:anchor>
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_insert.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:right;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[입력하기]]></xf:label>
+    		</w2:anchor>
+    		<w2:anchor href="/ws5/#w2xPath=/ws5/insa/sawon_main.xml" id="" outerDiv="false"
+    			style="width: 100px;height: 23px;float:left;font-size:14pt;color:#FFFFFF;margin:10px;">
+    			<xf:label><![CDATA[피노소프트]]></xf:label>
+    		</w2:anchor>
+    	</xf:group>
+    	<xf:group id="" style="height:67px;">
+    		<xf:group id="" style="height:46px;">
+    			<xf:trigger id="btn_search"
+    				style="width: 80px;height: 23px;float:right;margin-top: 10px;margin-right: 10px;background-color: gray;color:#FFFFFF;"
+    				type="button" ev:onclick="scwin.btn_search_onclick">
+    				<xf:label><![CDATA[조회]]></xf:label>
+    			</xf:trigger>
+    			<xf:trigger id="btn_delete"
+    				style="width: 80px;height: 23px;float:right;margin-top: 10px;margin-right: 5px;background-color: gray;color:#FFFFFF;"
+    				type="button" ev:onclick="scwin.btn_delete_onclick">
+    				<xf:label><![CDATA[삭제]]></xf:label>
+    			</xf:trigger>
+    			<xf:trigger ev:onclick="scwin.btn_save_onclick" id="btn_save"
+    				style="width: 80px;height: 23px;float:right;margin-top: 10px;margin-right: 5px;background-color: gray;color:#FFFFFF;"
+    				type="button">
+    				<xf:label><![CDATA[수정]]></xf:label>
+    			</xf:trigger>
+    		</xf:group>
+    		<xf:group id="" style="height: 1000px;">
+    			<xf:group class="w2tb" id="" style="width:100%;border: hidden;" tagname="table">
+    				<w2:attributes>
+    					<w2:summary></w2:summary>
+    				</w2:attributes>
+    				<xf:group tagname="caption"></xf:group>
+    				<xf:group tagname="colgroup">
+    					<xf:group style="width:80px;" tagname="col"></xf:group>
+    					<xf:group style="width:9.09%" tagname="col"></xf:group>
+    					<xf:group style="width:80px;" tagname="col"></xf:group>
+    					<xf:group style="width:9.09%" tagname="col"></xf:group>
+    					<xf:group style="width:80px;" tagname="col"></xf:group>
+    					<xf:group style="width:9.09%" tagname="col"></xf:group>
+    					<xf:group style="width:80px;" tagname="col"></xf:group>
+    					<xf:group style="width:9.09%" tagname="col"></xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border: hidden; " tagname="td">    						<w2:attributes>    							<w2:colspan>2</w2:colspan>    							<w2:rowspan>5</w2:rowspan>    						</w2:attributes>    						<xf:image id="img_profile" ref="" src="/ws5/img/base_profile.png"
+    							style="width: 100px;height: 100px;padding-left: 150px;">
+    						</xf:image>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="text-align:center; border: hidden; " tagname="td">*사번</xf:group>
+    					<xf:group class="w2tb_td" style="border: hidden; " tagname="td">    						<xf:input adjustMaxLength="false" id="insa_sabun" readOnly="true" ref="data:dc_insa.INSA_SABUN"
+    							style="width: 100%;height: 21px;background-color:#D9D9D9;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="text-align:center; border: hidden; " tagname="td">*한글성명</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" allowChar="가-힣" dataType="text" displayFormatter="" id="insa_name"
+    							ref="data:dc_insa.INSA_NAME" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">영문성명</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" allowChar="a-z, A-Z" dataType="text" id="insa_eng_name"
+    							ref="data:dc_insa.INSA_ENG_NAME" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden; " tagname="tr">    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">*아이디</xf:group>    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">    						<xf:input adjustMaxLength="false" id="insa_id" ref="data:dc_insa.INSA_ID" style="width: 100%;height: 21px;background-color:#D9D9D9;" readOnly="true"></xf:input>    					</xf:group>    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">*패스워드</xf:group>    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">    						<xf:secret id="insa_pwd" ref="data:dc_insa.INSA_PWD" style="width: 100%;height: 21px;" validator=""
+    							ev:onchange="">
+    						</xf:secret>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">*패스워드확인</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:secret id="insa_pwd2" style="width: 100%;height: 21px;" validator="" ref="data:dc_insa.INSA_PWD2"></xf:secret>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">전화번호</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" dataType="number" disabled="false" displayFormat=""
+    							displayFormatter="phoneVali" id="insa_phone" ref="data:dc_insa.INSA_PHONE" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">*핸드폰번호</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" dataType="number" displayFormatter="phoneVali" id="insa_hp"
+    							ref="data:dc_insa.INSA_HP" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">주민번호</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" dataType="number" displayFormat="" displayFormatter="regVali"
+    							ev:onchange="scwin.insa_reg_no_onchange" id="insa_reg_no" ref="data:dc_insa.INSA_REG_NO" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">연령</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" id="insa_years" ref="data:dc_insa.INSA_YEARS"
+    							style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						*이메일
+    						<xf:input adjustMaxLength="false" id="insa_email1" ref="data:dc_insa.INSA_EMAIL1"
+    							style="width: 100px;height: 21px;margin-left: 10px;">
+    						</xf:input>
+    						<xf:input adjustMaxLength="false" id="insa_email3" ref="data:dc_insa.INSA_EMAIL2"
+    							style="width: 100px;height: 21px;margin-left: 10px;" displayFormatter="emailVali">
+    						</xf:input>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" ev:onchange="scwin.insa_email2_onchange" id="insa_email2" ref=""
+    							style="width: 100px;height: 21px;margin-left: 10px;float:right;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:email">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<w2:span id="" label="직종체크" style=""></w2:span>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_join_gbn_code" ref="data:dc_insa.INSA_JOIN_GBN_CODE"
+    							style="width: 120px;height: 21px;margin-left: 10px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:join_gbn_code">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    						<w2:span id="" label="성별" style="margin-left: 20px;"></w2:span>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_gender" ref="data:dc_insa.INSA_GENDER"
+    							style="width: 120px;height: 21px;margin-left: 10px;float:right;clear:none;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:gender">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">주소</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" id="insa_zip" ref="data:dc_insa.INSA_ZIP" style="width: 60%;height: 21px;"
+    							placeholder="우편번호">
+    						</xf:input>
+    						<xf:trigger ev:onclick="scwin.btn_zip_onclick" id="btn_zip"
+    							style="height: 23px;float:right;padding: 1px;background-color:gray;color:#FFFFFF;padding-left: 5px;padding-right: 5px;"
+    							type="button">
+    							<xf:label><![CDATA[주소검색]]></xf:label>
+    						</xf:trigger>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:input adjustMaxLength="false" id="insa_addr1" ref="data:dc_insa.INSA_ADDR1"
+    							style="width: 100%;height: 21px;" placeholder="주소">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:input adjustMaxLength="false" id="insa_addr2" ref="data:dc_insa.INSA_ADDR2"
+    							style="width: 100%;height: 21px;" placeholder="세부주소">
+    						</xf:input>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:trigger ev:onclick="scwin.btn_profile_onclick" id="btn_profile"
+    							style="width: 80px;height: 23px;background-color:gray;color:#FFFFFF;margin-left: 160px;" type="button">
+    							<xf:label><![CDATA[사진올리기]]></xf:label>
+    						</xf:trigger>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">직위</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_pos_gbn_code" ref="data:dc_insa.INSA_POS_GBN_CODE"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:pos_gbn_code">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">부서</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_dept_code" ref="data:dc_insa.INSA_DEPT_CODE"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:dept_code">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">연봉(만원)</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:input adjustMaxLength="false" dataType="number" displayFormat="#,###" id="insa_salary"
+    							ref="data:dc_insa.INSA_SALARY" style="width: 100%;height: 21px;float:right;clear:none;text-align:right;" placeholder="(만원)">
+    						</xf:input>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">입사구분</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_join_type" ref="data:dc_insa.INSA_JOIN_TYPE"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:join_type">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">등급</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_gart_level" ref="data:dc_insa.INSA_GART_LEVEL"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:gart_level">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">투입여부</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_put_yn" ref="data:dc_insa.INSA_PUT_YN"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:put_yn">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">군필여부</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" ev:onchange="scwin.insa_mil_yn_onchange" id="insa_mil_yn"
+    							ref="data:dc_insa.INSA_MIL_YN" style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:mil_yn">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">군별</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_mil_type" ref="data:dc_insa.INSA_MIL_TYPE"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:mil_type">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">계급</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_mil_level" ref="data:dc_insa.INSA_MIL_LEVEL"
+    							style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:mil_level">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">입영일자</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:inputCalendar calendarValueType="yearMonthDate" focusOnDateSelect="false" footerDiv="false"
+    							id="insa_mil_startdate" ref="data:dc_insa.INSA_MIL_STARTDATE" renderDiv="true" renderType="component" rightAlign="false"
+    							style="width: 100%;height: 23px;">
+    						</w2:inputCalendar>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">전역일자</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:inputCalendar calendarValueType="yearMonthDate" focusOnDateSelect="false" footerDiv="false"
+    							id="insa_enddate" ref="data:dc_insa.INSA_MIL_ENDDATE" renderDiv="true" renderType="component" rightAlign="false"
+    							style="width: 100%;height: 23px;">
+    						</w2:inputCalendar>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						KOSA등록
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" ev:onchange="scwin.insa_kosa_reg_yn_onchange" id="insa_kosa_reg_yn"
+    							ref="data:dc_insa.INSA_KOSA_REG_YN" style="width: 100%;height: 21px;" submenuSize="auto">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:kosa_reg_yn">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						KOSA등급
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" id="insa_kosa_class_code" ref="data:dc_insa.INSA_KOSA_CLASS_CODE"
+    							style="width: 100%;height: 21px;" submenuSize="auto" tabIndex="0">
+    							<xf:choices>
+    								<xf:itemset nodeset="data:kosa_class_code">
+    									<xf:label ref="CODE_NM"></xf:label>
+    									<xf:value ref="CODE_CD"></xf:value>
+    								</xf:itemset>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						*입사일자
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<w2:inputCalendar calendarValueType="yearMonthDate" focusOnDateSelect="false" footerDiv="false"
+    							id="insa_join_day" ref="data:dc_insa.INSA_JOIN_DAY" renderDiv="true" renderType="component" rightAlign="false"
+    							style="width: 100%;height: 23px;">
+    						</w2:inputCalendar>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						퇴사일자
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<w2:inputCalendar calendarValueType="yearMonthDate" focusOnDateSelect="false" footerDiv="false"
+    							id="insa_retire_day" ref="data:dc_insa.INSA_RETIRE_DAY" renderDiv="true" renderType="component" rightAlign="false"
+    							style="width: 100%;height: 23px;">
+    						</w2:inputCalendar>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						사업자번호
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:input adjustMaxLength="false" dataType="number" displayFormatter="cmpVali" id="insa_cmp_reg_no"
+    							ref="data:dc_insa.INSA_CMP_REG_NO" style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						업체명
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:input adjustMaxLength="false" id="insa_crm_name" ref="data:dc_insa.INSA_CRM_NAME"
+    							style="width: 100%;height: 21px;">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						사업자등록증
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:input adjustMaxLength="false" id="insa_cmp_reg_image" readOnly="true" ref="data:dc_insa.INSA_CMP_REG_IMAGE"
+    							style="width: 100%;height: 21px;background-color:#D9D9D9;" displayFormatter="regcmp">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:group id="" style="width: 80px;height: 23px;float:left;margin-left: 70px;">
+    							<xf:trigger ev:onclick="scwin.cmp_pre_onclick" id="cmp_pre" style="width: 80px;height: 23px;"
+    								type="button">
+    								<xf:label><![CDATA[미리보기]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    						<xf:group id="" style="width: 80px;height: 23px;float:right;margin-right: 70px;">
+    							<w2:multiupload ev:onComplete="" ev:ondone="" id="cmp_up" mode="html5_transparent"
+    								selectCallback="multiUploadSelectDone" style="width: 80px;height: 23px;position: absolute;" uploadButton="" wmode="false"
+    								action="/ws5/upload2.do">
+    							</w2:multiupload>
+    							<xf:trigger id="cmp_bt" style="width: 80px;height: 23px;" type="button">
+    								<xf:label><![CDATA[등록]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="border: hidden;" tagname="tr">
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						자기소개
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>3</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:textarea id="insa_self_intro" ref="data:dc_insa.INSA_SELF_INTRO" style="width:100%;height:24px;"
+    							placeholder="100자 내외로 적으시오">
+    						</xf:textarea>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						이력서
+    						<w2:attributes></w2:attributes>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;" tagname="td">
+    						<w2:attributes></w2:attributes>
+    						<xf:input adjustMaxLength="false" id="insa_carrier" readOnly="true" ref="data:dc_insa.INSA_CARRIER"
+    							style="width: 100%;height: 21px;background-color:#D9D9D9;" displayFormatter="regcmp2">
+    						</xf:input>
+    					</xf:group>
+    					<xf:group class="w2tb_td" style="border:hidden;text-align:center;" tagname="td">
+    						<w2:attributes>
+    							<w2:colspan>2</w2:colspan>
+    							<w2:rowspan>1</w2:rowspan>
+    						</w2:attributes>
+    						<xf:group id="" style="width: 80px;height: 23px;float:left;margin-left: 70px;">
+    							<xf:trigger ev:onclick="scwin.carrier_pre_onclick" id="carrier_pre" style="width: 80px;height: 23px;"
+    								type="button">
+    								<xf:label><![CDATA[미리보기]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    						<xf:group id="" style="width: 80px;height: 23px;float:right;margin-right: 70px;">
+    							<w2:multiupload id="car_up" mode="html5_transparent" selectCallback="multiUploadSelectDone2"
+    								style="width: 80px;height: 23px;position: absolute;" uploadButton="" wmode="false" action="/ws5/upload2.do">
+    							</w2:multiupload>
+    							<xf:trigger id="car_bt" style="width: 80px;height: 23px;" type="button">
+    								<xf:label><![CDATA[파일 업로드]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    			<table id="" style="" summary=""></table>
+    			<xf:image id="insa_cmp_reg_image_im" src="" style="width: 100px;height: 100px;"></xf:image>
+    			<xf:image id="insa_carrier_im" src="" style="width: 100px;height: 100px;"></xf:image>
+    			<xf:input adjustMaxLength="false" id="img_profile2" style="width: 144px;height: 21px;" ref="data:dc_insa.INSA_PROFILE"
+    				displayFormatter="regpro">
+    			</xf:input>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

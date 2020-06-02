@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		var data = $p.getParameter("param");
+		ui_image.setSrc(data.src);
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="popWrapper" style="width:420px;height:300px;margin: 0px auto;">
+    		<xf:group class="titlebox" id="" style="">
+    			<w2:textbox class="df_tt" id="" label="미리보기" style="" tagname="h2"></w2:textbox>
+    		</xf:group>
+    		<xf:group class="borderbox fileDropBox" id="grp_fileBox" style="position: relative;height: 400px;">
+    			<xf:image alt="" class="previewImage" id="ui_image" src=''
+    				style="position: absolute;width: 300px;height: 400px;left: calc(50% - 150px);">
+    			</xf:image>
+    		</xf:group>
+    		<xf:group class="btn_fix" id="" style=""></xf:group>
+    	</xf:group>
+    </body>
+</html>
